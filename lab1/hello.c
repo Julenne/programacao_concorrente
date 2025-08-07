@@ -44,7 +44,7 @@ int main(int argc, char* argv[]){
 
     //finalizar a execução
     puts("Main terminou");
-
+    pthread_exit(NULL);
     return 0;
 
 }
